@@ -1,11 +1,15 @@
 package com.frs;
 
 public class RegularTicket {
-    public  String specialServices;
-    public boolean availed;
+    private String specialServices;
+    private boolean availed;
+
+    public boolean isAvailed() {
+        return availed;
+    }
 
     public String getCheckAvailed(){
-        if(availed==true){
+        if(isAvailed()==true){
             return getSpecialServices();
         }
         return null;

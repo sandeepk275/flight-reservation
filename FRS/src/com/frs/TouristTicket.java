@@ -1,8 +1,8 @@
 package com.frs;
 
 public class TouristTicket {
-    public String hotelAddress;
-    public  String selectedTouristLocation;
+    private String hotelAddress;
+    private   String selectedTouristLocation;
 
     public  String getHotelAddress(){
         return this.hotelAddress;

@@ -1,11 +1,11 @@
 package com.frs;
 
 public class Flight {
-    public String flightNumber;
-    public String airLine;
-    public int capacity;
-    public int bookedSeat;
-    public boolean availability;
+    private String flightNumber;
+    private String airLine;
+    private int capacity;
+    private int bookedSeat;
+    private boolean availability;
 
 
 
