@@ -14,5 +14,6 @@ public class Main {
     Flight flight = new Flight("q231", "indigo", 145, 120);
     System.out.println(ticket1.getPNR());
         System.out.println(flight.getFlightDetails());
+        System.out.println(newPassenger.getContactDetails());
 }
 }
