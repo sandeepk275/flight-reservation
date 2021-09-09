@@ -1,6 +1,6 @@
 package com.frs;
 
-public class Ticket {
+public  class Ticket {
     private String PNR;
     private String from;
     private String to;
@@ -28,6 +28,7 @@ public class Ticket {
         this.cancelled=cancelled;
     }
     public String getPNR(){
+
         return this.PNR;
     }
     public void setPNR(String PNR){
@@ -110,7 +111,7 @@ public class Ticket {
         }
             return "cancel";
         }
-        public String getFlightDetails(){
+        public  String getFlightDetails(){
             return this.getPNR()+","+this.getFrom()+","+this.getTo()+","+this.getPassenger()+","
                     +this.getFlight()+","+ this.getDepartureDateTime()+","+this.getArrivalDateTime()+","+
                     this.getSeatNumber()+"," +this.getPrice()+ ","+this.isCancelled();
@@ -118,5 +119,7 @@ public class Ticket {
         public void cancel(){
             cancelled=true;
             System.out.println("ticket cancelled");
-        }
     }
+
+    }
+
